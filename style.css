@@ -1,0 +1,138 @@
+*{
+  padding: none;
+  margin:none;
+  box-sizing: border-box;
+  list-style-type: none;
+  
+ 
+}
+.umong{
+    background-image: url(/images/istockphoto-1073028558-612x612.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 80vh;
+   width: 100%;
+}
+
+.nav-item{
+    font-size: 28px;
+}
+
+/* .clothes{
+    position: relative;
+    top: 600px;
+} */
+
+.dang{
+   position: relative;
+bottom: 270px;
+padding-left: 45px;
+}
+.dang h1{
+    font-size: 50px;
+}
+
+
+.allign{
+    display: flex;
+    justify-content: center;
+}
+
+/* .baccover .allign{
+    
+} */
+
+.allign div{
+    padding: 25px;
+    position: relative;
+    bottom: 70px;
+    background-color: darkgrey;
+}
+
+.allign a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: fantasy;
+}
+
+.allign a:active {
+    border-bottom: 2px solid red;
+    border-width: 5px;
+   
+}
+
+
+
+/* .colof .box{
+    background-color: darkgray;
+    padding-top:70px;
+}
+
+.colof{
+   
+} */
+
+.fullter{
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 120px;
+    text-align: center;
+   
+}
+.fullter div{
+    padding-top: 200px;
+}
+
+.fullter h1{
+    padding-bottom: 15px;
+    
+}
+
+.fullter h5{
+    padding-bottom: 20px;
+}
+
+.fullter input{
+    margin-bottom: 20px;
+}
+
+input[type="email"]{
+    text-align: center;
+    padding: 25px;
+    outline-style: double;
+    outline: 1px solid rgb(129, 130, 129);
+    border: none;
+    
+}
+button[type="button"]{
+    padding: 20px;
+    color: black;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.socialM{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.socialM div{
+    padding: 50px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+}
+
+.socialM nav{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.socialM nav a{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: black;
+}
